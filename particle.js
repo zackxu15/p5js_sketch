@@ -21,7 +21,7 @@ function Person() {
   this.display = function() {
     fill(255);
     stroke(255);
-    rect(this.pos.x, this.pos.y - 50, 20, 50);
+    rect(this.pos.x, this.pos.y - 40, 20, 50);
   }
 
   this.edges = function() {
